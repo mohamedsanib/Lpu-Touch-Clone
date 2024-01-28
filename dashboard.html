@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/dashboard-css/title_nav.css">
+    <link rel="stylesheet" href="css/dashboard-css/time_table.css">
+    <link rel="stylesheet" href="css/dashboard-css/dash_main.css">
+    <link rel="stylesheet" href="css/dashboard-css/grid_bar.css">
+    <link rel="stylesheet" href="css/dashboard-css/side_bar.css">
+    <link rel="stylesheet" href="css/dashboard-css/media.css">
+</head>
+<body>
+    <div class="overlay" onclick="removeSidebar();">
+        
+    </div>
+    <div class="title_bar">
+        <div class="side_panel_btn">
+            <img src="image/dashboard-img/side-panel-img.png" alt="">
+        </div>
+        <h2>
+            Dashbord
+        </h2>
+        <div class="notification">
+            <img src="image/dashboard-img/notify-img.png" alt="">
+        </div>
+    </div>
+
+    <div class="side_bar">
+        <div class="profile_box">
+            <div class="p_pic">
+                <img src="image/profile-img.png" alt="">
+            </div>
+            <p class="p_name">
+                User
+            </p>
+            <span class="p_reg">
+                1221221
+            </span>
+            <p class="p_dept">
+                Btech(computer Science Enginearing)
+            </p>
+        </div>
+
+        <div class="tmp">
+            <div class="search_bar">
+                <div class="search-img">
+                    <img src="image/dashboard-img/search-img.png" alt="">
+                </div>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+
+        <ul class="search_result">
+            
+        </ul>
+
+        <div class="tmp_2">
+            <button class="log_out">
+                Logout
+            </button>
+        </div>
+    </div>
+
+    <main>
+        <div class="time_table_bar">
+            <p class="tt_title">
+                Today's Timetable
+            </p>
+            <div class="tt_display">
+
+            </div>
+        </div>
+
+        <div class="add_tile_box">
+            <div class="add_title_txt">
+                <p class="add_title">
+                    Add More Tiles
+                </p>
+                <p class="add_disc">
+                    Click on the plus button to add menu grids
+                </p>
+            </div>
+            <div class="add_btn">
+                <img src="image/dashboard-img/add-btn-img.png" alt="">
+            </div>
+        </div>
+
+        <div class="grid_bar">
+           
+        </div>
+    </main>
+
+    <div class="nav">
+        <div class="nav_box">
+            <div class="nav_box_pic">
+                <img src="image/dashboard-img/dashboard-img.png" alt="">
+            </div>
+            <p class="nav_box_txt">
+                Dashbord
+                </p>
+        </div>
+
+        <div class="nav_box">
+            <div class="nav_box_pic">
+                <img src="image/dashboard-img/happening-img.png" alt="">
+            </div>
+            <p class="nav_box_txt">
+                Happening 
+            </p>
+        </div>
+
+        <div class="nav_box">
+            <div class="nav_box_pic">
+                <img src="image/dashboard-img/rms-img.png" alt="">
+            </div>
+            <p class="nav_box_txt">
+                Rms 
+            </p>
+        </div>
+
+
+        <div class="nav_box">
+            <div class="nav_box_pic">
+                <img src="image/dashboard-img/quick-quiz-img.png" alt="">
+            </div>
+            <p class="nav_box_txt">
+                Quick Quiz
+            </p>
+        </div>
+    </div>
+
+</body>
+
+<script src="script/dash-main.js"> </script>
+<script src="script/timetable.js"> </script>
+</html>

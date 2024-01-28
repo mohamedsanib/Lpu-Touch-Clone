@@ -1,0 +1,41 @@
+main{
+    position: absolute;
+    width: 100%;
+    top: 7.1vh;
+    bottom: 10vh;
+    overflow-y: scroll;
+}
+
+.add_tile_box{
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px;
+}
+.add_title_txt{
+    width: 300px;
+}
+.add_title{
+    font-weight: 500;
+    font-size:large;
+    padding: 5px;
+    width: 100%;
+}
+.add_disc{
+    padding-left: 5px;
+    font-size: small;
+    letter-spacing: 0.7px;
+    word-wrap: break-word;
+}
+.add_btn{
+    width: 30px;
+}
+
+@media screen and (min-width: 1200px){
+    main{
+        left: 30vw;
+        width: 70vw;
+    }
+}
