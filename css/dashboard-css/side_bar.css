@@ -147,6 +147,7 @@
 @media screen and (max-width: 720px) {
     .side_bar{
         width: 75vw;
+        padding-bottom: 50px;
         display: none;
     }
 }
