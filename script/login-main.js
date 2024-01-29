@@ -10,11 +10,11 @@ function visiblePass(){
     const eye_sheid = document.querySelector('.js_active');
     if(passtext.type === "password"){
         passtext.type = "text";
-        eye_sheid.innerHTML = `<img class="eye_svg" src="/image/eye.svg" alt="hide password">`;
+        eye_sheid.innerHTML = `<img class="eye_svg" src="image/eye.svg" alt="hide password">`;
     }
     else{
         passtext.type = "password";
-        eye_sheid.innerHTML = `<img class="eye_svg" src="/image/eye-slash.svg" alt="hide password">`;
+        eye_sheid.innerHTML = `<img class="eye_svg" src="image/eye-slash.svg" alt="hide password">`;
     } 
 }
 
