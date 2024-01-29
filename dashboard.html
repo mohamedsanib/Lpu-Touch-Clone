@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/dashboard-css/grid_bar.css">
     <link rel="stylesheet" href="css/dashboard-css/side_bar.css">
     <link rel="stylesheet" href="css/dashboard-css/media.css">
+    <link rel="stylesheet" href="css/dashboard-css/bottom_pop_up.css">
 </head>
 <body>
     <div class="overlay" onclick="removeSidebar();">
@@ -132,8 +133,38 @@
         </div>
     </div>
 
+     <div class="bottom_pop_up js_bottom_pop_up">
+        <div class="bp_header">
+            <div>
+
+            </div>
+            <p>
+                Important Information
+            </p>
+            <button class="bp_close_btn">
+                &times;
+            </button>
+        </div>
+        <div class="bp_body">
+
+            <div class="bp_body_item">
+                <p class="bp_body_item_header">
+                    Your class feedback is pending!
+                </p>
+                <span>
+                    provinding feedback is mandatory for you.
+                </span>
+                <button class="bp_body_item_btn">
+                    submit
+                </button>
+            </div>
+
+        </div>
+    </div>
+
 </body>
 
 <script src="script/dash-main.js"> </script>
 <script src="script/timetable.js"> </script>
+<script src="script/bottom-pop-up.js"></script>
 </html>
