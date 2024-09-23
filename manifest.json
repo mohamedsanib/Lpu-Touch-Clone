@@ -1,0 +1,57 @@
+{
+    "name": "LPU C",
+    "short_name": "LPU C",
+    "start_url": "login.html",
+    "display": "standalone",
+    "icons": [
+      {
+        "sizes": "114x114",
+        "src": "image/lpu-logo.png"
+      },
+      {
+        "sizes": "120x120",
+        "src": "image/lpu-logo.png"
+      },
+      {
+        "sizes": "144x144",
+        "src": "image/lpu-logo.png"
+      },
+      {
+        "sizes": "152x152",
+        "src": "image/lpu-logo.png"
+      },
+      {
+        "sizes": "180x180",
+        "src": "image/lpu-logo.png"
+      },
+      {
+        "sizes": "57x57",
+        "src": "image/lpu-logo.png"
+      },
+      {
+        "sizes": "60x60",
+        "src": "image/lpu-logo.png"
+      },
+      {
+        "sizes": "72x72",
+        "src": "image/lpu-logo.png"
+      },
+      {
+        "sizes": "76x76",
+        "src": "image/lpu-logo.png"
+      },
+      {
+        "src": "image/lpu-logo.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "image/lpu-logo.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "prefer_related_applications": true
+  }
+
+  

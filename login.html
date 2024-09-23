@@ -1,70 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lpu Login</title>
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/login-main.css">
-    <link rel="stylesheet" href="css/pop-up.css">
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/login-main.css" />
+    <link rel="stylesheet" href="css/pop-up.css" />
 
-    <link rel="shortcut icon" href="/image/lpu-logo.png" type="image/x-icon">
-</head>
-<body>
-    <div class="overlay">
-    </div>
+    
+    <link rel="shortcut icon" href="image/lpu-logo.png" type="image/x-icon" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="image/lpu-logo.png" />
+  </head>
+  <body>
+    <div class="overlay"></div>
     <div class="pop-up">
-        <h5>
-            Message
-        </h5>
-        <p class="pop-content">
-            invalid password
-        </p>
-        <button class="pop-btn">
-            OK
-        </button>
+      <h5>Message</h5>
+      <p class="pop-content">invalid password</p>
+      <button class="pop-btn">OK</button>
     </div>
 
     <div class="logo-box">
-        <img src="image/lpu-logo.png" alt="lpu-logo-image">
+      <img src="image/lpu-logo.png" alt="lpu-logo-image" />
     </div>
 
     <div class="login-box">
-        
-        <div class="reg-box lgb-cm">
-            <img src="image/user.svg" alt="" class="svg">
-            <input type="text" placeholder="User Id" id="reg-inp">
+      <div class="reg-box lgb-cm">
+        <img src="image/user.svg" alt="" class="svg" />
+        <input type="text" placeholder="User Id" id="reg-inp" />
+      </div>
+
+      <div class="pass-box lgb-cm">
+        <img src="image/pass.svg" alt="" class="svg" />
+        <input type="password" placeholder="password" id="pass-inp" />
+        <div class="eye_svg js_active">
+          <img src="image/eye-slash.svg" alt="" />
         </div>
+      </div>
 
-        <div class="pass-box lgb-cm">
-            <img src="image/pass.svg" alt="" class="svg">
-            <input type="password" placeholder="password" id="pass-inp">
-            <div class="eye_svg js_active">
-                <img  src="image/eye-slash.svg" alt="">
-            </div>
-        </div>
+      <button class="sign-in lgb-cm">
+        <span>
+          Sign In
+          <img
+            src="image/right-arrow.svg"
+            alt=""
+            class="svg"
+            style="border: none"
+          />
+        </span>
+      </button>
 
-        <button class="sign-in lgb-cm">
-            <span>
-                Sign In
-                <img src="image/right-arrow.svg" alt="" class="svg" style="border: none;">
-            </span>
-        </button>
-
-        <p class="forget-box lgb-cm">
-            <a class="forget" href="#">
-                Forget password ?
-            </a>
-        </p>
-
+      <p class="forget-box lgb-cm">
+        <a class="forget" href="#"> Forget password ? </a>
+      </p>
     </div>
 
-    <div>
-        
-    </div>
-</body>
+    <div></div>
+  </body>
 
-<script src="script/login-main.js">
-</script>
-
+  <script src="script/login-main.js"></script>
 </html>
